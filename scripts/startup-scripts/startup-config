@@ -1,0 +1,15 @@
+#Pretty Colors
+export CLICOLOR=1
+#export LSCOLORS=GxFxCxDxBxegedabagaced
+#export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd #typical linux
+#Command Completion
+#fpath=(/usr/local/share/zsh-completions $fpath)
+#unalias run-help
+ # autoload run-help
+  HELPDIR=/usr/local/share/zsh/help
+#CoreUtils man
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+#Linking Homebrew
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"

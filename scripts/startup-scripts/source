@@ -1,0 +1,13 @@
+source $HOME/scripts/startup-scripts/aliases
+source $HOME/scripts/startup-scripts/startup-config
+source $HOME/scripts/startup-scripts/setopt
+source $HOME/scripts/startup-scripts/completion
+source $HOME/scripts/startup-scripts/prompt
+source $HOME/scripts/startup-scripts/history
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/scripts/startup-scripts/ssh
+source /usr/local/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
+source $HOME/scripts/startup-scripts/homebrew
+source /usr/local/etc/grc.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /Users/appleuser/scripts/startup-scripts/functions

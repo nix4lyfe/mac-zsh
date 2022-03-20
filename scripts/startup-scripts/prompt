@@ -1,0 +1,10 @@
+#PWD in prompt
+setopt PROMPT_SUBST
+#PS1='%* ${USER}@${HOST} %~/ %# '
+autoload -Uz promptinit
+  promptinit
+  #prompt elite
+  prompt bart red cyan
+setopt PROMPT_PERCENT
+setopt PROMPT_BANG
+#PROMPT=
