@@ -10,4 +10,4 @@ source /usr/local/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
 source $HOME/scripts/startup-scripts/homebrew
 source /usr/local/etc/grc.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /Users/appleuser/scripts/startup-scripts/functions
+source $HOME/scripts/startup-scripts/functions
