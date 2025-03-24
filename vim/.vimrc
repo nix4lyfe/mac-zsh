@@ -96,9 +96,25 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 call plug#begin('~/.vim/plugged')
 
-  Plug 'dense-analysis/ale'
-
-  Plug 'preservim/nerdtree'
+   Plug 'dense-analysis/ale'
+  Plug 'dracula/vim'
+  " Dracula — a really good theme for neovim
+  Plug 'ryanoasis/vim-devicons'
+  " vim-devicons — devicon support for nerdtree
+  Plug 'scrooloose/nerdtree'
+  " nerdtree — a file explorer for neovim(netrw comes as default for neovim)
+  Plug 'SirVer/ultisnips'
+  " ultisnips — snippets engine
+  Plug 'honza/vim-snippets'
+  " vim-snippets — a collection of snippets                                                      
+  Plug 'preservim/nerdcommenter'
+  " nerdcommenter — an easy way for commenting out lines
+  Plug 'mhinz/vim-startify'
+  " vim-startify — a really handy start page with lots of customizations
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " coc — a fast code completion engine
+  Plug 's3rvac/vim-syntax-yara'
+  " Yara Syntax Highlighting
 
 call plug#end()
 
